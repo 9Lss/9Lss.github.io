@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Your Name — Composer</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Your Name</h1>
+    <p>Composer • Orchestral / Film / Electronic</p>
+  </header>
+
+  <main>
+    <section id="portfolio">
+      <h2>Selected Works</h2>
+
+      <article class="track">
+        <h3>Track Title 1</h3>
+        <p>Short description of the piece (year, instrumentation).</p>
+        <audio controls preload="none">
+          <source src="audio/track1.mp3" type="audio/mpeg">
+          Your browser doesn't support the audio element.
+        </audio>
+        <p><a href="audio/track1.mp3" download>Download MP3</a></p>
+      </article>
+
+      <article class="track">
+        <h3>Track Title 2</h3>
+        <p>Short description.</p>
+        <audio controls preload="none">
+          <source src="audio/track2.mp3" type="audio/mpeg">
+        </audio>
+        <p><a href="audio/track2.mp3" download>Download MP3</a></p>
+      </article>
+    </section>
+
+    <section id="about">
+      <h2>About</h2>
+      <p>Short bio, credits, contact details or email link.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:you@example.com">you@example.com</a></p>
+    </section>
+  </main>
+</body>
+</html>

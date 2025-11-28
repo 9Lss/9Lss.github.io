@@ -1,0 +1,4 @@
+body{font-family:system-ui, Arial, sans-serif; max-width:900px; margin:30px auto; line-height:1.5; padding:0 16px;}
+header{margin-bottom:24px;}
+.track{margin-bottom:20px; padding:10px; border-bottom:1px solid #ddd;}
+audio{width:100%; margin-top:8px;}
